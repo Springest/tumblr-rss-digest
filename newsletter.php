@@ -11,7 +11,7 @@ define('FROM_EMAIL', ''); # Digest sender's email
 define('FROM_NAME', ''); # Digest sender's name
 
 $feed = new SimplePie();
-$feed->set_feed_url(YOUR_FEED_URL);
+$feed->set_feed_url(sprintf('http://%s/rss', YOUR_FEED_URL));
 $feed->set_cache_location(dirname(__FILE__) . '/cache');
 $feed->init();
 
