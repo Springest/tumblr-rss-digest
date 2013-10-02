@@ -1,0 +1,1 @@
+a:3:{s:3:"url";s:41:"http://springestreadinglist.tumblr.com/?#";s:8:"feed_url";s:42:"http://springestreadinglist.tumblr.com/rss";s:5:"build";s:14:"20131002182920";}
